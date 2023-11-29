@@ -18,15 +18,15 @@
     $secondary: #EEE8EF;
     $success: #C8C0CA;
     
-    
-    $navbar-light-color: $light;
-    $navbar-light-hover-color: $success;
-    $navbar-light-active-color: $success;
-    $navbar-light-disabled-color: $secondary;
+    $navbar-dark-color: $primary;
+    $navbar-dark-hover-color: $secondary;
+    $navbar-dark-active-color: $secondary; 
 
     $grid-columns: 12 !default;
     $grid-gutter-width: 3rem !default;
     $grid-row-columns: 6 !default;
+
+   
         
 // Include any default variable overrides here (though functions won't be available)
 
@@ -34,7 +34,19 @@
 
 // Then add additional custom code here
 
+img{
+    size: 2rem;
+}
 .footer img {
     size: 2in;
+}
+
+.nav {
+    color: #472752;
+}
+
+h1{
+    size: 4rem;
+    color: #472752;
 }
 
