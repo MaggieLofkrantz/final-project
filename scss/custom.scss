@@ -9,7 +9,7 @@
     --font-size-lg: clamp(1.56rem, 0.79vw + 1.36rem, 2rem);
     --font-size-xl: clamp(1.95rem, 1.29vw + 1.63rem, 2.66rem);
     --font-size-xxl: clamp(2.44rem, 2.02vw + 1.94rem, 3.55rem);
-    --font-size-xxxl: clamp(3.05rem, 3.06vw + 2.29rem, 4.73rem);
+    --font-size-xxxl: clamp(3.05rem, 3.06vw + 3.29rem, 4.73rem);
 }
 // Option A: Include all of Bootstrap
     
@@ -26,9 +26,9 @@ $navbar-light-icon-color: $secondary;
 $navbar-light-toggler-icon-bg: $secondary;
 
 
-$grid-columns: 12 !default;
-$grid-gutter-width: 3rem !default;
-$grid-row-columns: 6 !default;
+$grid-columns: 3;
+$grid-gutter-width: 1.5rem;
+$grid-row-columns: 3;
         
 // Include any default variable overrides here (though functions won't be available)
 
@@ -52,11 +52,35 @@ img {
 }
 
 h1 {
-    size: 4rem;
-    color: #472752;
+    --font-size-xxxl:clamp(3.05rem, 3.06vw + 3.29rem, 4.73rem);
+    color: #472752; 
+}
+h2 {
+    margin-top: 50px;
 }
 
 footer {
     align-content: space-evenly;
+}
+
+.grid-container {
+    display: grid;
+    gap: 40px 50px;
+margin-left: 50px;
+}
+
+.grid-container
+.text {
+    margin-top: 50px;
+}
+
+.grid-container
+.img
+{
+    margin-bottom: 50px;
+}
+
+.opening {
+    margin: 50px 50px 50px 50px;
 }
 
