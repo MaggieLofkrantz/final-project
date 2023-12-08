@@ -13,11 +13,20 @@
 }
 // Option A: Include all of Bootstrap
     
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Include any default variable overrides here (though functions won't be available)
+
 $font-family-base: 'Josefin Sans', sans-serif;
 
 $primary: #472752;
 $secondary: #EEE8EF;
 $success: #C8C0CA;
+// $info:          $cyan;
+// $warning:       $yellow;
+// $danger:        $red;
+// $light:         $gray-100;
+// $dark:          $gray-900;
 
 $navbar-light-color: $secondary;
 $navbar-light-hover-color: $success;
@@ -30,22 +39,48 @@ $grid-columns: 3;
 $grid-gutter-width: 1.5rem;
 $grid-row-columns: 3;
         
-// Include any default variable overrides here (though functions won't be available)
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
 
 
 // Then add additional custom code here
+
+body, input, * {
+   font-family: $font-family-base;
+}
+
+nav.navbar {
+    background-color: $primary !important;
+    color: $secondary;
+    
+}
 
 .navbar-brand {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: $secondary;
 }
 
-img {
-    size: 2rem;
+.navbar-brand:hover {
+    color: $success;
 }
+
+.nav-link {
+    color: $secondary;
+    
+}
+
+.nav-link:hover {
+    color: $success;
+}
+
+#poms {
+    width: 2000px;
+}
+
 
 .footer img {
     size: 2in;
@@ -53,11 +88,11 @@ img {
 
 h1 {
     font-size: 8rem;
-    color: #472752; 
+    color: $primary; 
 }
 h2 {
     margin-top: 50px;
-    color: #472752;
+    color: $primary;
 }
 
 footer {
@@ -84,4 +119,11 @@ margin-left: 50px;
 .opening {
     margin: 50px 50px 50px 50px;
 }
+
+footer {
+    text-align: center;
+}
+
+
+
 
