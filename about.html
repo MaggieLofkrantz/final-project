@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/custom.css">
-    <title>Document</title>
+    <title>I E Weldon High School</title>
 </head>
 <body>
     
@@ -13,7 +13,7 @@
     <div class="container-fluid">
       <nav class="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="home-page.html">
+          <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
             I E WELDON
           </a>
@@ -35,7 +35,16 @@
     </div>
   </nav>
 
-  <h1>ABOUT IEW SECONDARY SCHOOL</h1>
+  <section id="intro" class="intro mt-5 mb-5">
+    <div class="wrapper">
+     <style>
+      h1 {
+        text-align: center;
+      }
+     </style>
+   <h1 style="font-size: 6rem;"><b> ABOUT I E WELDON </b></h1>
+    </div>
+  </section>
 
   <nav class="nav nav-pills flex-column flex-sm-row">
     <a class="flex-sm-fill text-sm-center nav-link" href="#our-history">OUR HISTORY</a>
@@ -45,9 +54,26 @@
   </nav>
 
   <section id="our-history" class="our-history">
-  <h2>OUR HISTORY</h2>
-  <p>Our school opened in 1971 with additions completed in 1985, 1995, and 2002. The school was named for a prominent local lawyer, Isaac Ernest Weldon, who left a generous bequest of money to the Victoria County Board of Education, with the stipulation that the interest generated annually would be divided amongst graduating students in the County advancing to post-secondary education. Both Mr. Weldon and the school have come to be highly regarded for a philanthropic spirit. Students and staff contribute generously to Plan Canada, which supports children in developing countries around the world. Weldon ranks as one of the top contributing schools in Canada. We routinely raise significant funds through the following events: The Terry Fox Run, United Way campaign, Hoops for Heart, and Big Bike for Heart and Stroke. We also maintain a close relationship with A Place Called Home. Extra-curricular programs provide opportunities for students pursuing a diverse range of interests. In the school’s history, we have distinguished ourselves as participants at the local and provincial levels. These accomplishments have provided a basis for the on-going school spirit at Weldon.</p>
-  <img src="images/isaac.jpg" class="img-fluid" alt="issac">
+  <style>
+    p{
+      width: 500px;
+      text-align: left;
+    }
+    #issac{
+      size-adjust: 200px;
+    }
+  </style>
+    <h2>OUR HISTORY</h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <p>Our school opened in 1971 with additions completed in 1985, 1995, and 2002. The school was named for a prominent local lawyer, Isaac Ernest Weldon, who left a generous bequest of money to the Victoria County Board of Education, with the stipulation that the interest generated annually would be divided amongst graduating students in the County advancing to post-secondary education. Both Mr. Weldon and the school have come to be highly regarded for a philanthropic spirit. Students and staff contribute generously to Plan Canada, which supports children in developing countries around the world. Weldon ranks as one of the top contributing schools in Canada. We routinely raise significant funds through the following events: The Terry Fox Run, United Way campaign, Hoops for Heart, and Big Bike for Heart and Stroke. We also maintain a close relationship with A Place Called Home. Extra-curricular programs provide opportunities for students pursuing a diverse range of interests. In the school’s history, we have distinguished ourselves as participants at the local and provincial levels. These accomplishments have provided a basis for the on-going school spirit at Weldon.</p>
+        </div>
+        <div class="col">
+          <img id="issac" src="images/isaac.jpg" class="img-fluid" alt="issac"> 
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="bell-schedule" class="bell-schedule">
@@ -61,13 +87,15 @@
 
 
 
-  <footer align="center" margin-top="50px">
-    <h8>SOCIAL MEDIAS</h8>
-    <img src="images/X.jpg" width="30px" height="30px" >
-    <img src="images/instagram icon.png" width="20px" height="20px">
-    <img src="images/fb.png" width="20px" height="20px">
-    <p class="wrapper"><small>&copy; I E Weldon 2023</small></p>
-  </footer align="center" margin-top="50px">
+  <div class="footer">
+    <footer align="center" margin-top="50px">
+      <h8>SOCIAL MEDIAS</h8>
+       <img src="images/X.jpg" width="30px" height="30px">
+      <img src="images/instagram icon.png" width="20px" height="20px">
+      <img src="images/fb.png" width="20px" height="20px">
+      <p class="wrapper"><small>&copy; I E WELDON 2023</small></p>
+    </footer align="center" margin-top="50px">
+  </div>
   
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
