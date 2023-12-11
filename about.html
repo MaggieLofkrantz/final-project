@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/x-icon" href="/images/logo.png">
+  <link rel="icon" type="image/x-icon" href="./images/logo.png">
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/custom.css">
@@ -51,18 +51,32 @@
     <a class="flex-sm-fill text-sm-center nav-link" href="#our-history">OUR HISTORY</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="#bell-schedule">BELL SCHEDULE</a>
     <a class="flex-sm-fill text-sm-center nav-link" href="#calendar">CALENDAR</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">CONTACT INFORMATION</a>
+    <a class="flex-sm-fill text-sm-center nav-link" href="#info">CONTACT INFORMATION</a>
   </nav>
   </div>
 
   <section id="our-history" class="our-history">
   <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    
     p{
+      justify-content: left;
       width: 500px;
       text-align: left;
+      margin-left: 45px;
+      padding-bottom: 1rem;
+    }
+    h2{
+      justify-content: left;
+      padding-left: 80px;
+      padding-bottom: 20px;
+      padding-top: 40px;
     }
     #issac{
-      size-adjust: 200px;
+      padding-left: 9rem;
     }
   </style>
     <h2>OUR HISTORY</h2>
@@ -72,31 +86,64 @@
           <p>Our school opened in 1971 with additions completed in 1985, 1995, and 2002. The school was named for a prominent local lawyer, Isaac Ernest Weldon, who left a generous bequest of money to the Victoria County Board of Education, with the stipulation that the interest generated annually would be divided amongst graduating students in the County advancing to post-secondary education. Both Mr. Weldon and the school have come to be highly regarded for a philanthropic spirit. Students and staff contribute generously to Plan Canada, which supports children in developing countries around the world. Weldon ranks as one of the top contributing schools in Canada. We routinely raise significant funds through the following events: The Terry Fox Run, United Way campaign, Hoops for Heart, and Big Bike for Heart and Stroke. We also maintain a close relationship with A Place Called Home. Extra-curricular programs provide opportunities for students pursuing a diverse range of interests. In the school’s history, we have distinguished ourselves as participants at the local and provincial levels. These accomplishments have provided a basis for the on-going school spirit at Weldon.</p>
         </div>
         <div class="col">
-          <img id="issac" src="images/isaac.jpg" class="img-fluid" alt="issac"> 
+          <img id="issac" src="images/issac.jpg" class="img-fluid"  width="75%";
         </div>
       </div>
     </div>
   </section>
 
-  <section id="bell-schedule" class="bell-schedule">
+  <h2>BELL SCHEDULE</h2>
+  <section id="bell-schedule" class="times">
     <img src="images/times.jpg" class="times">
+    <style>
+      .times{
+        width: 80%;
+        padding-left: 70px;
+      }
+    </style>
   </section>
 
-  <section id="calendar" class="calendar">
-    <h2>CALENDAR</h2>
-    <img src="images/calendar.jpg" class="img-fluid" alt="calendar">
+  <h2>CALENDAR</h2>
+  <section id="calendar">
+    <img src="images/calendar.jpg" class="calendar" alt="calendar">
+    <style>
+      .calendar{
+        max-width:70%;
+        padding-left: 140px;
+      }
+    </style>
   </section>
 
-  <div class="footer">
-    <footer align="center" margin-top="50px">
-      <h8>SOCIAL MEDIAS</h8>
-       <img src="images/X.jpg" width="30px" height="30px">
-      <img src="images/instagram icon.png" width="20px" height="20px">
-      <img src="images/fb.png" width="20px" height="20px">
-      <p class="wrapper"><small>&copy; I E WELDON 2023</small></p>
-    </footer align="center" margin-top="50px">
+  <section id="info"></section>
+  <h2>CONTACT INFORMATION</h2>
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col"><img src="images/phone.png" width="7%"></div>
+      <div class="col">705 324 3585</div>
+      <div class="col"><img src="images/Message.png" width="8%"></div>
+      <div class="col">infoweldon@tldsb.on.ca</div>
+      <div class="col"><img src="images/Pin.png" width="8%"></div>
+      <div class="col">24 WELDON ROAD,LINDSAY ON, K9V4R4</div>
+    </div>
   </div>
+</section>
+<style>
+  .container {
+    margin-top: -10px;
+  }
+  .contact-text {
+    margin-top: 5px;
+    padding: 2px; 
+  }
+</style>
 
+<footer style="text-align: center; margin-top: 50px;">
+  <h8>SOCIAL MEDIAS</h8>
+  <img src="images/X.jpg" width="30px" height="30px">
+  <img src="images/instagram icon.png" width="20px" height="20px">
+  <img src="images/fb.png" width="20px" height="20px">
+  <p class="wrapper"><small>&copy; I E Weldon 2023</small></p>
+</footer>
   
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

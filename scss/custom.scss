@@ -86,6 +86,8 @@ nav.navbar {
     size: 2in;
 }
 
+
+
 h1 {
     font-size: 8rem;
     color: $primary; 
@@ -124,6 +126,24 @@ footer {
     text-align: center;
 }
 
+.course
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px; 
+    margin: 10px; 
+    padding: 20px;
+    background-color: #EEE8EF;
+}
 
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 30px; 
+    padding-top: 15px;
+  }
 
+  
 
