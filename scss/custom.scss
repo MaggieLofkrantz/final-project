@@ -39,7 +39,8 @@ $grid-columns: 3;
 $grid-gutter-width: 1.5rem;
 $grid-row-columns: 3;
         
-
+$btn-link-color: $secondary;
+$btn-light-color: $secondary;
 
 
 
@@ -97,6 +98,10 @@ h2 {
     color: $primary;
 }
 
+h4{
+    padding-left: 170px;
+}
+
 footer {
     align-content: space-evenly;
 }
@@ -136,7 +141,9 @@ footer {
     margin: 10px; 
     padding: 20px;
     background-color: #EEE8EF;
+    margin-bottom: 5%;
 }
+
 
   .container {
     display: grid;
@@ -145,5 +152,28 @@ footer {
     padding-top: 15px;
   }
 
-  
+  .button {
+	color: black;
+	background-color: #EEE8EF;
+  border: 20px solid #EEE8EF;
+  border-radius: 10px; 
+  }
 
+  .guidance {
+    margin-left: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .clubs
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px; 
+    margin: 10px; 
+    padding: 20px;
+    background-color: #EEE8EF;
+    margin-bottom: 5%;
+}
